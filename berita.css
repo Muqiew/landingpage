@@ -1,0 +1,431 @@
+body {
+    font-family: "Monstserrat", 'Segeo UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.brand img {
+    height: 60px;
+    width: 60px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #052a4e;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-contact,
+.sosmed {
+    list-style-type: none;
+    padding: 0;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #ffff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #F2C808;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+}
+
+#topbar .sosmed li a i {
+    color: #fff;
+}
+
+/* css untuk header */
+
+header {
+    padding: 30px 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: #15477A;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 18px;
+    font-family: Relaway, 'Segeo UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+}
+
+.pembungkus-searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+
+.btn.btn-utama {
+    background-color: #15477A;
+    color: #f5cb10;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn.btn-utama:hover {
+    background-color: #002b57;
+}
+
+/*CSS untuk menu / navbar */
+
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid #F2C808;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.bg-biru {
+    background-color: #15477A !important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    caret-color: #000;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link{
+    background-color: #F2C808;
+    color: #000;
+}
+
+.active {
+    background-color: #F2C808;
+    color: #15477A;
+}
+
+li.nav-item.active a {
+    color: #15477A;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* css untuk section prestasi*/
+
+#prestasi {
+    min-height: 250px;
+}
+
+#prestasi .col-item-kanan {
+    padding: 20px 30px 20px 20px;
+}
+
+.section-item {
+    margin: 70px 0;
+    box-shadow: 0 0 25px #ddd;
+    min-height: 250%;
+    overflow: hidden;
+}
+
+.section-item-tumbnail {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.section-tittle {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.section-tittle h2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #15477A;
+    font-weight: 600;
+}
+
+.section-tittle h2:after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #F2C808;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-item-tittle {
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+.section-item-tittle h3 {
+    font-size: 18px;
+    color: #15477A;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-tittle span {
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.section-item-tittle span i {
+    margin-right: 5px;
+}
+
+.section-item-tittle span:span-of-type {
+    margin-right: 15px;
+}
+
+.section-item-body p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+/* CSS untuk tbl selengkapnya*/
+
+.section-tittle {
+    margin: 50px 0;
+}
+
+.tombol-selengkapnya {
+    text-align: center;
+}
+
+.btn.btn-more {
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-weight: 600;
+    color: #15477A;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #15477A;
+    border-radius: 0;
+    padding: 10px 40px;
+}
+
+/*css untuk section berita*/
+
+#berita{
+    padding: 50px 0;
+    background-color: #052a4e;
+}
+
+#berita .section-tittle h2{
+    color: #fff;
+}
+
+#berita .section-item-slider{
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#berita .section-item-content h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F2C808;
+}
+
+#berita .section-item-content p{
+    font-size: 14px;
+    color: #888888;
+    line-height: 26px;
+}
+
+#berita .section-item-content .more{
+    color: #ddd;
+}
+
+#berita .section-item-content .more i {
+    margin-left: 15px;
+}
+
+.img.fluid{
+    height: 100%;
+    object-fit: cover;
+}
+
+/*CSS untuk Footer*/
+
+footer {
+    color: #fff;
+    background-color: #15477A;
+    padding: 70px 0;
+}
+
+footer .footer-col:first-of-type {
+    padding-right: 30px;
+}
+
+footer .brand {
+    display: flex;
+    top: 15%;
+}
+
+footer .brand img {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+footer .brand h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+footer .tentang {
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+footer .sosmed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sosmed li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .sosmed li {
+    color: #15477A;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+footer .sosmed li a:hover {
+    color: #c7c7c7;
+}
+
+.footer-col h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-col .alamat {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.footer-col .kontak {
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.footer-col .kontak li {
+    margin: 10px 0;
+}
+
+
+.footer-col .kontak i {
+    margin-right: 10px;
+}
+
+
+.footer-col .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col .footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-col .footer-nav a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 28px;
+    transition: all 0.5s;
+}
+
+.footer-col .footer-nav a:hover {
+    border-bottom: 1px dashed #fff;
+}
+
+.footer-copyright .container {
+    border-top: 1px solid rgba(242, 242, 242, 0.25);
+    padding: 10px 0;
+}
+
+
+.footer-copyright {
+    margin-top: 60px;
+}
+
+.footer-copyright h6 {
+    font-size: 16px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-copyright h6 a {
+    color: inherit;
+}
+
+.footer-copyright h6 a:hover {
+    border-bottom: 1px dashed #cecece;
+}
